@@ -1,0 +1,364 @@
+@import "https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Cormorant+SC:600";
+@import "_bootstrap.min.css";
+@import "_font-awesome.css";
+@import "_mmenu.css";
+@import "_scrollbar.css";
+@import "_fancybox.css";
+@import "style.scss";
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1365px) {
+
+    .episodebox {
+        min-width: 100%;
+    }
+    .rounded_panel.catalog .catalog_txt{
+        margin-left: 0px;
+    }
+    header .container{
+        transform: translateX(0);
+    }
+    header .logo{
+        left: 0;
+        max-width: 100px;
+    }
+    header .tab_menus {
+        padding-top: 115px;
+    }
+    header .top_menu{
+        top: 28px;
+    }
+    header .tab_menus .tab_menu_item p br{
+        display: none;
+    }
+    // .tab_menus_content .row .col-lg-3.fourcol {
+    //     padding-right: 40px;
+    // }
+    // .tab_menus_content .row .col-lg-3.firstcol {
+    //     padding-left: 40px;
+    // }
+    .section_intro .intro_img{
+        text-align: center;
+    }
+    // .section_intro .intro_img>img {
+    //     transform: translateX(0px);
+    // }
+    .copyright{
+        text-align: center;
+    }
+
+    .copyright ul,
+    footer .foot_images{
+        justify-content: center;
+        padding-top: 30px;        
+
+        li{
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+    }
+}
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .rounded_panel.catalog .catalog_txt{
+        border-left: 0;
+        padding-left: 0;
+        padding-top: 30px;
+    }
+    .self_video .embed_video {
+        margin-left: 0;
+    }
+    .people_img {
+        text-align: center;
+    }
+    .section_intro .intro_txt h2 {
+        margin-bottom: 15px;
+    }
+    .fancybox-content h2,
+    .rounded_panel h2,
+    h1, h2 {
+        font-size: 40px;
+    }
+    .section_intro .intro_txt.self-single,
+    .section_intro .intro_txt {
+        max-width: 100%;
+    }
+    header .tab_menus .tab_menu_item:before{
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+        top: -1px;
+    }
+    header .tab_menus .tab_menu_item{
+        padding-left: 30px;
+        padding-bottom: 10px;
+        display: flex;
+        align-items: flex-start
+    }
+    .tab_menu_item_text{
+        display: none;
+    }
+    header .tab_menus>.col {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .tab_menus_content .row,
+    header .tab_menus{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .tab_menus_content .row .col-lg-3 {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .tab_menus_content{
+        padding-top: 15px;
+        padding-bottom: 0;
+    }
+    .tab_menus_content .row .col-lg-3:nth-child(4) {
+        padding-right: 8px;
+    }
+    .tab_menus_content .row .col-lg-3:nth-child(1) {
+        padding-left: 8px;
+    }
+    .tab_menus_content .menu_block{
+        margin-bottom: 15px;
+    }
+    .menu_block_list{
+        padding: 0 20px;
+        margin-bottom: 15px;
+    }
+    header .tab_menus {
+        padding-top: 100px;
+    }
+    .rounded_panel .right_text {
+        padding-left: 0;
+    }
+    .section.news .rounded_panel{
+        padding: 40px 40px 0;
+    }
+    .fancybox-content,
+    .condbox,
+    .rounded_panel{
+        padding: 40px 40px;
+    }
+    .rounded_panel .conectline {
+        font-size: 26px;
+    }
+    .rounded_panel .right_text .btn_place{
+        text-align: right;
+    }
+    .rounded_panel .radio_right {
+        padding-left: 0px;
+    }
+    .love_img {
+        text-align: center;
+    }
+    .love_img img {
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .news_block.amput .excerpt{
+        transform: translate(0);
+    }
+    .section_intro.airing {
+        padding-top: 52px;
+    }
+    .section_intro.airing_single .intro_txt {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .down_text {
+        padding-right: 0;
+        padding-bottom: 30px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+    .section_intro .intro_txt h3{
+        font-size: 21px;
+    }
+    .section_intro.airing_single .intro_btn {
+        padding-bottom: 0;
+    }
+    .grid40.airing .row .col-12 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .section_intro.airing .iframe_wrapper {
+        padding-left: 0;
+    }
+    .rounded_panel.catalog .catalog_img{
+        text-align: center;
+    }
+    .section_intro .intro_txt.matters .button_place>div {
+        margin-right: 0;
+    }
+    .section_intro .intro_txt.matters .button_place{
+        display: block;
+        text-align: center;
+
+        .button{
+            margin-bottom: 15px;
+        }
+    }
+    .circles {
+        background: url(../img/circles.png) no-repeat center center;
+        background-size: contain;
+
+        >.row {
+            min-height: 408px;
+        }
+    }
+    .social_links>div {
+        margin-right: 5px;
+    }
+    .thumb_box{
+        float: none;
+        margin-top: 0;
+    }
+    .copyright ul{
+        display: block;
+    }
+    .condbox h3{
+        font-size: 18px;
+    }
+    .rounded_panel.news_block h2, 
+    .news_block h3 {
+        font-size: 24px;
+    }
+    .pain_metters .pain_metters_txt {
+        padding-right: 0px;
+    }
+    .rounded_panel .conectline {
+        font-size: 18px;
+    }
+    .video_wrap{
+        border-radius: 30px;
+    }
+    .section.news .rounded_panel{
+        padding: 15px 15px 0;
+    }
+    .fancybox-content,
+    .condbox,
+    .rounded_panel {
+        padding: 15px 15px;
+        border-radius: 30px;
+    }
+    .section_intro {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .section_intro .intro_txt {
+        margin-bottom: 30px;
+    }
+
+    .fancybox-content h2,
+    .rounded_panel h2,
+    h1, h2 {
+        font-size: 30px;
+    }	
+	.tab_menus_content,
+    header .tab_menus,
+    header ul.top_menu_links{
+        display: none!important;
+    }
+    main{
+        padding-top: 120px;
+    }
+    .fancybox-slide--html .fancybox-close-small {
+        right: 5px;
+        top: 5px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .section_intro{
+        text-align: center;
+
+        ul{
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 90%;
+            text-align: left;
+        }
+    }
+} 
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+@media only screen and (min-width : 576px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .showonmobile{
+        display: none;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .nopad{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+@media only screen and (min-width : 1366px) {
+    .col-spec{
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    only screen and (-o-min-device-pixel-ratio: 3/2),
+    only screen and (min--moz-device-pixel-ratio: 1.5),
+    only screen and (min-device-pixel-ratio: 1.5) {
+	.contact_button.tel:before {
+	    background: url(../img/phone@2x.png) no-repeat;
+	}
+
+	input, textarea {
+      /* remove inner shadow on iOS input */
+        background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(hsla(0,0%,100%,0)), to(hsla(0,0%,100%,0)));
+        background-image: -webkit-linear-gradient(#fff(0,0%,100%,0), #fff(0,0%,100%,0));
+        border-radius: 0;
+        box-shadow: none;
+    }
+}
+
+.class{
+    display: flex;
+    }
